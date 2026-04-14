@@ -1,13 +1,15 @@
-import AddData from "./components/AddData"
-import { ToDoSearch } from "./components/TodoSearch"
+import { Toaster } from 'sonner';
+import AddData from './components/AddData';
+import { ToDoSearch } from './components/TodoSearch';
 
 export function App() {
   return (
     <div>
       <ToDoSearch />
       <AddData />
+      <Toaster position="top-right" richColors />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
